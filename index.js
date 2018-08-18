@@ -1,5 +1,3 @@
-//TechSide Express JS Server with Handlebars view engine
-
 var express = require('express');
 var app = express();  //use express js module
 var Twit = require('twit');
@@ -15,6 +13,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.set('port', process.env.PORT || 3000);  //sets port 3000
 
+// open Twit and pull tweets
 var T = new Twit(config);
 
 var mediaParams = {
