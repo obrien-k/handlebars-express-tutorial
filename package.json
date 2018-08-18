@@ -1,0 +1,29 @@
+{
+  "name": "handlebars-express-tutorial",
+  "version": "1.0.0",
+  "description": "Following some tutorials and working with handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbhostnet/handlebars-express-tutorial.git"
+  },
+  "keywords": [
+    "express",
+    "handlebars",
+    "tutorial"
+  ],
+  "author": "Kyle O'Brien",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/webbhostnet/handlebars-express-tutorial/issues"
+  },
+  "homepage": "https://github.com/webbhostnet/handlebars-express-tutorial#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "twit": "^2.2.11"
+  }
+}

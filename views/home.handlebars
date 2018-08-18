@@ -1,0 +1,9 @@
+<h2>Welcome Home</h2>
+<p>This is my Express Site that uses handlebars</p>
+{{#if show_media}}
+{{#each show_media}}
+<img src="{{this}}">
+{{/each}}
+{{else}}
+<p>No photos found</p>
+{{/if}}
